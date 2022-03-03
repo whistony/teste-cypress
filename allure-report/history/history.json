@@ -1,0 +1,100 @@
+{
+  "17f3f290b62a3d4dc2bd7861c46cc3cd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4b76315e4510c75",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.\n\n`<button _ngcontent-c16=\"\" class=\"btn btn-table btn-sm btn-primary\" id=\"tableCRUDEdit-0\" title=\"Editar reserva\" disabled=\"\">...</button>`\n\nCypress requires elements be attached in the DOM to interact with them.\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nThis DOM element likely became detached somewhere between the previous and current command.\n\nCommon situations why this happens:\n  - Your JS framework re-rendered asynchronously\n  - Your app code reacted to an event firing and removed the element\n\nYou typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.\n\nhttps://on.cypress.io/element-has-detached-from-dom",
+      "time" : {
+        "start" : 1645825381511,
+        "stop" : 1645825394904,
+        "duration" : 13393
+      }
+    } ]
+  },
+  "83636ec1ba881d20985104e4c1a008b2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fe1038920ce38c0",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#tableCRUDEdit-0`, but never found it.",
+      "time" : {
+        "start" : 1645825311407,
+        "stop" : 1645825323442,
+        "duration" : 12035
+      }
+    } ]
+  },
+  "1f4199ff166c8c8c8176e1ea9bb411ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ce73f58d20ac2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645825362364,
+        "stop" : 1645825381467,
+        "duration" : 19103
+      }
+    } ]
+  },
+  "09f988d8bb9c43fb84bd91737cc98d06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c4ae8bdaf7a9a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645825291728,
+        "stop" : 1645825311361,
+        "duration" : 19633
+      }
+    } ]
+  },
+  "d4ce8a416fd341fd049cb2863ddd3277" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e63eb7e0f4cad3c2",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#nationality > .d-inline-block > #dropdownBasic1`, but never found it.",
+      "time" : {
+        "start" : 1645825323524,
+        "stop" : 1645825349323,
+        "duration" : 25799
+      }
+    } ]
+  }
+}

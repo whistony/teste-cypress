@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#tableCRUDEdit-0`, but never found it.",
+      "children" : [ {
+        "name" : "Editar Reserva",
+        "uid" : "3fe1038920ce38c0",
+        "parentUid" : "e01e66228a3c530f9dcf02d277f04f63",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645825311407,
+          "stop" : 1645825323442,
+          "duration" : 12035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e01e66228a3c530f9dcf02d277f04f63"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#nationality > .d-inline-block > #dropdownBasic1`, but never found it.",
+      "children" : [ {
+        "name" : "Converter Contrato",
+        "uid" : "e63eb7e0f4cad3c2",
+        "parentUid" : "b7f17f51c1144cc549d4e2e038f50604",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645825323524,
+          "stop" : 1645825349323,
+          "duration" : 25799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7f17f51c1144cc549d4e2e038f50604"
+    }, {
+      "name" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is detached from the DOM.\n\n`<button _ngcontent-c16=\"\" class=\"btn btn-table btn-sm btn-primary\" id=\"tableCRUDEdit-0\" title=\"Editar reserva\" disabled=\"\">...</button>`\n\nCypress requires elements be attached in the DOM to interact with them.\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nThis DOM element likely became detached somewhere between the previous and current command.\n\nCommon situations why this happens:\n  - Your JS framework re-rendered asynchronously\n  - Your app code reacted to an event firing and removed the element\n\nYou typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.\n\nhttps://on.cypress.io/element-has-detached-from-dom",
+      "children" : [ {
+        "name" : "Editar Reserva",
+        "uid" : "e4b76315e4510c75",
+        "parentUid" : "cbce8a71b2a0c9c18947430482224a87",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645825381511,
+          "stop" : 1645825394904,
+          "duration" : 13393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbce8a71b2a0c9c18947430482224a87"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

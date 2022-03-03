@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Feb 25 18:43:01 BRT 2022","Fri Feb 25 18:43:14 BRT 2022","13393","","Flag Renovacao","","","","Editar Reserva",""
+"failed","Fri Feb 25 18:41:51 BRT 2022","Fri Feb 25 18:42:03 BRT 2022","12035","","Coral","","","","Editar Reserva",""
+"passed","Fri Feb 25 18:42:42 BRT 2022","Fri Feb 25 18:43:01 BRT 2022","19103","","Flag Renovacao","","","","Criar Reserva com ativando a Flag Renovacao",""
+"passed","Fri Feb 25 18:41:31 BRT 2022","Fri Feb 25 18:41:51 BRT 2022","19633","","Coral","","","","Criar Reserva",""
+"failed","Fri Feb 25 18:42:03 BRT 2022","Fri Feb 25 18:42:29 BRT 2022","25799","","Coral","","","","Converter Contrato",""
